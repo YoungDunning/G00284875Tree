@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OOProjectG00284875</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_dynamic_tree_page">DynamicTreePage</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_preferences_c">PreferencesC</string>
+    
+    <string name="checkbox">Checkbox:</string> 
+	<string name="sName">Scientist Name:</string>
+	<string name="sEmail">Scientist Email:</string>
+	<string name="shipName">Ship Name:</string>
+	<string name="edit_pref">Edit Preferences</string>
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <PreferenceCategory android:title="Simple Preferences">
+		    <CheckBoxPreference
+					android:key="checkbox"
+					android:title="Checkbox Preference"
+					android:summary="Check it on, check it off"/>
+		    <PreferenceCategory />
+		    
+			<PreferenceCategory android:title="Detail Screens">
+			    <EditTextPreference
+						android:key="sName"
+						android:title="Scientists Name"
+						android:summary="Click to pop up a field for entry"
+						android:dialogTitle="Please Enter the Scientists Name:"/>
+			    <EditTextPreference
+						android:key="sEmail"
+						android:title="Scientists Email Address"
+						android:summary="Click to pop up a field for entry"
+						android:dialogTitle="Please Enter the Scientists Email Address:"/>
+			    <EditTextPreference
+						android:key="shipName"
+						android:title="Ship Name"
+						android:summary="Click to pop up a field for entry"
+						android:dialogTitle="Enter the Ships Name:"/>
+			</PreferenceCategory>
+		</PreferenceCategory>
+</PreferenceScreen>
